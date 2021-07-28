@@ -127,6 +127,14 @@ footer {
     /* border: 2px solid green; */
 }
 
+.contenedor-central-inicio {
+    height: 50vh;
+}
+
+.footer-inicio {
+    height: 25vh;
+}
+
 .contenedor-proyectos {
     width: 70%;
     height: 100%;
@@ -166,8 +174,10 @@ footer {
 }
 
 .imagen-logo-inicio2 {
-    height: 180px;
-    transform: translateY(-30px);
+    height: 100%;
+    /*transform: translateY(-30px);*/
+    filter: drop-shadow(0 5px 15px black);
+    animation: drop 2s ease;
 }
 
 .imagen-logo-footer {
@@ -178,7 +188,6 @@ footer {
     width: 70ch;
     animation: drop 1s ease;
     color: #222222;
-    padding-bottom: 150px;
     text-align: justify;
     line-height: 1.5rem;
 
@@ -192,6 +201,7 @@ footer {
 
 .texto-pie {
     animation: drop 1s ease;
+    padding: 90px 0;
     width: 70ch;
 }
 
@@ -341,6 +351,48 @@ footer {
     .servicio {
         margin: 0 50px;
         width: auto;
+    }
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.25) {
+    header {
+        height: 10vh;
+    }
+
+    body {
+        overflow: hidden;
+    }
+
+    .navegador-principal{
+        height: 100%;
+    }
+
+    .contenedor-contenido {
+        height: 80vh;
+    }
+
+    .contenedor-servicios {
+        padding-top: 20px;
+    }
+
+    .contenedor-central-inicio {
+        height: 50vh;
+    }
+
+    footer {
+        height: 10vh;
+    }
+
+    .footer-inicio {
+        height: 40vh;
+    }
+
+    .imagen-logo-footer {
+        height: 50%;
+    }
+
+    .imagen-logo-inicio2 {
+        height: 70%;
     }
 }
 
