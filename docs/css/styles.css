@@ -199,6 +199,11 @@ footer {
     animation: drop 1s ease;
 }
 
+.texto-pie-contacto p a {
+    text-decoration: none;
+    color: #222222;
+}
+
 .italica {
     font-style: italic;
 }
