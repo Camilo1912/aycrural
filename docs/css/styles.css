@@ -87,7 +87,7 @@ footer {
 
 .pagina-actual {
     /* border-bottom: 2px solid; */
-    filter: drop-shadow(0 3px 2px rgba(0, 0, 0, .25));
+    filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, .25));
 }
 
 .blanquita {
@@ -196,6 +196,7 @@ footer {
 
 .texto-central-contacto {
     text-align: center;
+    padding: 50px 0; 
     animation: drop 1s ease;
 }
 
@@ -205,11 +206,38 @@ footer {
     width: 70ch;
 }
 
-.texto-pie-contacto {
-    animation: drop 1s ease;
+.contenedor-instagram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    width: 100%;
 }
 
-.texto-pie-contacto p a {
+.contenedor-instagram img {
+    height: 20px;
+    padding-right: 5px;
+}
+
+.texto-pie-contacto {
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+    animation: drop 1s ease;
+    transition: .3s;
+}
+
+.texto-pie-contacto:hover {
+    transform: scale(1.07);
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.2);
+    /*background-color: whitesmoke;*/
+    background: radial-gradient(circle at top left, rgb(251, 251, 251), whitesmoke);
+}
+
+.linkeo-instagram {
+    height: 100%;
+    width: 100%;
     text-decoration: none;
     color: #222222;
 }
@@ -240,7 +268,7 @@ footer {
 }
 
 .texto-servicios {
-    padding: 30px 0;
+    padding-top: 30px 0;
 }
 
 .servicio {
@@ -260,9 +288,10 @@ footer {
 
 .servicio:hover {
     transform: scale(1.069);
-    background-color: whitesmoke;
+    /*background-color: whitesmoke;*/
     border-color: rgb(199, 199, 199);
     box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.15);
+    background: radial-gradient(circle at top left, rgb(251, 251, 251), whitesmoke);
 }
 
 .servicio a{
@@ -271,7 +300,8 @@ footer {
 }
 
 .servicio h2 {
-    padding-bottom: 20px;
+    padding-top: 0;
+    padding-bottom: 30px;
     text-align: center;
     padding-right: 0;
     padding-left: 0;
@@ -337,6 +367,18 @@ footer {
 
     footer {
         height: 10vh;
+    }
+
+    .footer-inicio {
+        height: 30vh;
+    }
+
+    .imagen-logo-inicio2 {
+        height: 80%;
+    }
+
+    .contenedor-central-inicio {
+        height: 50vh;
     }
 
     .imagen-logo-footer {
