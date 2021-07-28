@@ -244,11 +244,12 @@ footer {
 }
 
 .servicio {
-    background-color: whitesmoke;
+    background-color: white;
     display: flex;
     flex-direction: column;
     width: 100%;
     padding: 10px;
+    
     /* border: 1px solid gray; */
     border-radius: 5px;
     /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); */
@@ -259,6 +260,8 @@ footer {
 
 .servicio:hover {
     transform: scale(1.069);
+    background-color: whitesmoke;
+    border-color: rgb(199, 199, 199);
     box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.15);
 }
 
