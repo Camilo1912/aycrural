@@ -247,6 +247,11 @@ footer {
     box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.15);
 }
 
+.servicio a{
+    text-decoration: none;
+    color: black;
+}
+
 .servicio h2 {
     padding-bottom: 20px;
     text-align: center;
