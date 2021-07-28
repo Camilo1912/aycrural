@@ -202,7 +202,7 @@ footer {
 
 .texto-pie {
     animation: drop 1s ease;
-    padding: 90px 0;
+    padding: 65px 0;
     width: 70ch;
 }
 
@@ -244,6 +244,7 @@ footer {
 
 .italica {
     font-style: italic;
+    color: #888888;
 }
 
 .negrita {
@@ -268,7 +269,7 @@ footer {
 }
 
 .texto-servicios {
-    padding-top: 30px 0;
+    padding: 30px 0;
 }
 
 .servicio {
@@ -300,8 +301,7 @@ footer {
 }
 
 .servicio h2 {
-    padding-top: 0;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     text-align: center;
     padding-right: 0;
     padding-left: 0;
@@ -310,6 +310,7 @@ footer {
 }
 
 .servicio p {
+    padding-top: 15px;
     text-align: center;
     color: rgba(58, 58, 58, 0.753);
 }
@@ -329,6 +330,18 @@ footer {
     padding: 30px;
 
     /* border: 2px solid blue; */
+}
+
+.integrante {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+.integrante img {
+    height: 100%;
+    border-radius: 50%;
+    margin-right: 15px;
 }
 
 /* .ampliacion:hover {
