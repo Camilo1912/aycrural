@@ -133,10 +133,14 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    overflow-y: scroll;
+    overflow-y: hidden;
     animation: drop 1s ease;
 
     /* border: 2px solid yellow; */
+}
+
+.contenedor-proyectos:hover {
+    overflow-y: auto;
 }
 
 .imagen-logo-inicio {
@@ -176,6 +180,7 @@ footer {
     color: #222222;
     padding-bottom: 150px;
     text-align: justify;
+    line-height: 1.5rem;
 
     /* border: 2px solid orange; */
 }
