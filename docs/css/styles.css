@@ -401,6 +401,18 @@ section {
         margin-bottom: 40px;
         padding: 30px;
     }
+
+    footer {
+        display: block;
+        height: 150px;
+    }
+
+    .services-cards-container {
+        margin-bottom: 0;
+    }
+    .contacto {
+        margin-top: 35vh;
+    }
 }
 
 
