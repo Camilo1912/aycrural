@@ -381,8 +381,11 @@ section {
     }
 
     nav {
-        width: 100vw;
         height: 10vh;
+    }
+
+    .nav-list {
+        flex-wrap: wrap;
     }
 
     .rurale-background {
@@ -391,6 +394,7 @@ section {
 
     .presentation-title {
         display: inline;
+        margin-top: 20px;
         margin-bottom: 40px;
     }
 
