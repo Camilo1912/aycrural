@@ -341,7 +341,7 @@ section {
     }
 
     header {
-        height: 10%;
+        height: 10vh;
     }
 
     .presentation-content {
@@ -363,8 +363,9 @@ section {
     }
 
     .contacto {
-        margin-bottom: 40%;
+        height: 80vh;
     }
+
 }
 
 
@@ -404,14 +405,15 @@ section {
 
     footer {
         display: block;
-        height: 150px;
+        height: 10vh;
     }
 
     .services-cards-container {
         margin-bottom: 0;
     }
     .contacto {
-        margin-top: 35vh;
+        margin: 0;
+        height: 80vh;
     }
 }
 
