@@ -141,6 +141,7 @@ section {
     font-weight: 700;
     width: 100%;
     text-align: center;
+    display: none;
 }
 
 .presentation-main-text {
@@ -201,6 +202,7 @@ section {
     justify-content: space-between;
     max-width: 80%;
     gap: 30px;
+    margin-bottom: 100px;
     animation: drop 1s ease;
 
     /* border: 2px solid red; */
@@ -327,12 +329,21 @@ section {
     }
 
     main {
-        height: 100%;
-        overflow-y: scroll;
+        height: auto;
+        overflow-y: auto;
     }
 
     section {
         width: 80%;
+        height: auto;
+    }
+
+    header {
+        height: 10%;
+    }
+
+    .presentation-content {
+        height: auto;
     }
 
     .services-cards-container {
@@ -353,6 +364,38 @@ section {
         margin-bottom: 40%;
     }
 }
+
+
+@media (max-width: 411px) {
+    .service {
+        flex-direction: column;
+    }
+    
+    body {
+        overflow-y: scroll;
+        height: 100%;
+    }
+
+    nav {
+        display: inline-block;
+        height: 10vh;
+        position: sticky;
+    }
+
+    .presentation-title {
+        display: inline;
+        margin-bottom: 40px;
+    }
+
+    :root {
+        font-size: 15px;
+    }
+}
+
+
+
+
+
 
 
 
