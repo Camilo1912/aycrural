@@ -10,9 +10,11 @@
     --clr-font--medium: rgb(58, 58, 58);
     --clr-font--light: gray;
     --clr-font--maxlight: #bebebe;
+    --clr-background: #e7e7e7;
 }
 
 body {
+    background-color: var(--clr-background);
     padding: 0;
     margin: 0;
     width: 100vw;
@@ -57,27 +59,6 @@ header {
     /* border: 2px solid blue; */
 }
 
-main {
-    height: 70%;
-    width: 100%;
-    /* border: 2px solid red; */
-}
-
-.home-main {
-    height: 75%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    /* border: 2px solid blue; */
-}
-
-footer {
-    height: 15%;
-    width: 100%;
-    /* border: 2px solid green; */
-}
-
 nav {
     width: 60%;
     height: 100%;
@@ -113,6 +94,29 @@ nav {
 .page a:hover {
     color: var(--clr-font--dark);
 }
+
+main {
+    height: 70%;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+
+.home-main {
+    height: 75%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* border: 2px solid blue; */
+}
+
+footer {
+    height: 15%;
+    width: 100%;
+    /* border: 2px solid green; */
+}
+
+
 
 section {
     width: 60%;
