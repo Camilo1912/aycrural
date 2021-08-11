@@ -366,20 +366,18 @@ section {
 }
 
 
-@media (max-width: 411px) {
+@media (max-width: 500px) {
     .service {
         flex-direction: column;
     }
-    
+
     body {
-        overflow-y: scroll;
+        /* overflow-y: scroll; */
         height: 100%;
     }
 
     nav {
-        display: inline-block;
         height: 10vh;
-        position: sticky;
     }
 
     .presentation-title {
