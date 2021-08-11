@@ -372,12 +372,16 @@ section {
     }
 
     body {
-        /* overflow-y: scroll; */
+        overflow-y: scroll;
         height: 100%;
     }
 
     nav {
         height: 10vh;
+    }
+
+    .rurale-background {
+        height: 100vh;
     }
 
     .presentation-title {
