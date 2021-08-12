@@ -447,6 +447,15 @@ section {
     width: auto;
 }
 
+.carouselExampleIndicators:-webkit-full-screen {
+    background-color: yellow;
+  }
+  
+/* IE11 */
+.carouselExampleIndicators:-ms-fullscreen {
+    background-color: yellow;
+}
+
 
 @media (max-width: 500px) {
     .service {
