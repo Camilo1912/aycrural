@@ -322,7 +322,7 @@ section {
     margin-bottom: 10px;
     padding: 5px;
     font-weight: bolder;
-    border-bottom: 2px solid var(--clr-font--dark);
+    /* border-bottom: 2px solid var(--clr-font--dark); */
 }
 
 .gallery-box a{
@@ -341,7 +341,7 @@ section {
 }
 
 .img-project {
-    height: auto;
+    height: 60%;
     width: 100%;
 }
 
@@ -440,6 +440,7 @@ section {
 }
 
 
+
 @media (max-width: 500px) {
     .service {
         flex-direction: column;
@@ -491,6 +492,16 @@ section {
         margin: 0;
         height: 80vh;
     }
+
+    .member {
+        flex-direction: column;
+    }
+
+    .gallery {
+        width: 95%;
+    }
+
+    .portfolio-footer
 }
 
 
