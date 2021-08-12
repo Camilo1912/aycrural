@@ -324,9 +324,9 @@ section {
     font-weight: bolder;
 }
 
-.carousel {
-    height: 100%;
-    width: 70vw;
+.carousel, slide {
+    height: 60%;
+    width: 60vw;
     animation: drop 1s ease;
 }
 
@@ -442,6 +442,10 @@ section {
 
 }
 
+.carouselExampleIndicators:fullscreen {
+    height: 100vh;
+    width: auto;
+}
 
 
 @media (max-width: 500px) {
@@ -520,6 +524,10 @@ section {
 
     .contacto-container {
         text-align: center;
+    }
+
+    .carousel{
+        width: 95%;
     }
 
 }
