@@ -296,8 +296,78 @@ section {
     animation: drop 1s ease;
 }
 
+.gallery {
+    height: 70vh;
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    grid-gap: 1rem;
+    grid-auto-flow: dense;
+    padding: 1rem;
+    overflow-y: auto;
 
+    /* border: 1px solid blue; */
+}
 
+.gallery-box {
+    background-color: var(--clr-background2);
+    min-height: 300px;
+    /* border: 1px solid red; */
+}
+
+.gallery-title {
+    font-size: 1.5rem;
+    /* border: 1px solid blue; */
+    width: 70%;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-weight: bolder;
+    border-bottom: 2px solid var(--clr-font--dark);
+}
+
+.gallery-box a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: var(--clr-font--dark);
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    animation: drop 1s ease;
+
+    /* background-color: white; */
+}
+
+.img-project {
+    height: auto;
+    width: 100%;
+}
+
+.project h3,p {
+    margin: 10px 15px;
+}
+
+.project h3 {
+    font-weight: bolder;
+}
+
+.carousel {
+    height: 100%;
+    width: 70vw;
+    animation: drop 1s ease;
+}
+
+.portfolio-main {
+    height: 75vh;
+    overflow-y: auto;
+    /* border: 1px solid blue; */
+}
+
+.portfolio-footer {
+    height: 10vh;
+}
 
 
 
