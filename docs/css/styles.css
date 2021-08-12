@@ -324,12 +324,6 @@ section {
     font-weight: bolder;
 }
 
-.carousel, slide {
-    height: 60%;
-    width: 60vw;
-    animation: drop 1s ease;
-}
-
 .portfolio-main {
     height: 75vh;
     overflow-y: auto;
@@ -372,6 +366,25 @@ section {
     font-size: 1rem;
     color: var(--clr-font--medium);
 }
+
+.carousel {
+    width: 60vw;
+    animation: drop 1s ease;
+}
+
+.carousel-control-prev:hover, .carousel-control-next:hover {
+    background-color: rgb(168, 168, 168);
+}
+
+
+/* .carousel-item {
+    height: 100%;
+    object-fit: cover;
+} */
+
+
+
+
 
 
 
@@ -443,17 +456,19 @@ section {
 }
 
 .carouselExampleIndicators:fullscreen {
-    height: 100vh;
+    height: auto;
     width: auto;
 }
 
 .carouselExampleIndicators:-webkit-full-screen {
-    background-color: yellow;
-  }
+    height: auto;
+    width: auto;
+}
   
 /* IE11 */
 .carouselExampleIndicators:-ms-fullscreen {
-    background-color: yellow;
+    height: auto;
+    width: auto;
 }
 
 
