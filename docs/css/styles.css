@@ -273,14 +273,13 @@ section {
 }
 
 .gallery {
-    height: 70vh;
+    /* height: 70vh; */
+    min-height: auto;
     width: 70%;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
-    grid-gap: 1rem;
+    grid-gap: 3rem;
     grid-auto-flow: dense;
-    padding: 1rem;
-    overflow-y: auto;
 
     /* border: 1px solid blue; */
 }
@@ -317,7 +316,9 @@ section {
 }
 
 .img-project {
-    height: 60%;
+    object-fit: cover;
+    object-position: center;
+    height: 225px;
     width: 100%;
 }
 
@@ -332,6 +333,8 @@ section {
 .portfolio-main {
     height: 75vh;
     overflow-y: auto;
+    justify-content: start;
+    
     /* border: 1px solid blue; */
 }
 
@@ -512,7 +515,7 @@ section {
     .service {
         transform: scale(1.1);
         box-shadow: 10px 10px 15px rgba(0,0,0,.1);
-        margin-bottom: 40px;
+        margin: 30px 0;
         padding: 30px;
     }
 
@@ -530,6 +533,7 @@ section {
     }
 
     .member {
+        margin-top: 30px;
         flex-direction: column;
         justify-content: center;
     }
@@ -548,7 +552,7 @@ section {
     }
 
     .members-container {
-        margin-top: 30px;
+        margin-top: 50px;
     }
 
     .contacto-container {
@@ -557,6 +561,15 @@ section {
 
     .carousel{
         width: 95%;
+    }
+
+    .member-name {
+        text-align: center;
+    }
+
+    .center-text {
+        text-align: center;
+        font-size: 0.8rem;
     }
 
 }
