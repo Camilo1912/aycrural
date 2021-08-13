@@ -740,6 +740,10 @@ section {
         text-align: center;
     }
 
+    .contacto-container p{
+        font-size: 1rem;
+    }
+
     .carousel{
         width: 85%;
     }
@@ -760,6 +764,10 @@ section {
 
     .info-project-container {
         width: 85%;
+    }
+
+    .main-extra-service {
+        height: 80vh;
     }
 
 }
