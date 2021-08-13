@@ -579,6 +579,10 @@ section {
     background-color: var(--clr-font--medium);
 }
 
+.offcanvas-title {
+    font-size: 2rem;
+}
+
 .navbar {
     visibility: hidden;
     margin: 0;
@@ -859,6 +863,10 @@ section {
 
     .relleno2 {
         visibility: visible;
+    }
+
+    .rurale-background {
+        background-image: url('../images/backgrounds/IMAGEN\ INTRO-MIN-CORTADO-VERTICAL\ MIN.jpg'), linear-gradient(rgb(224, 224, 224), rgba(0, 0, 0, 0.69));
     }
 }
 
