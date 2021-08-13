@@ -842,6 +842,9 @@ section {
         visibility: hidden;
     }
 
+    .presentation-services {
+        padding-bottom: 50px;
+    }
 
 }
 
