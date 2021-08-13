@@ -215,7 +215,7 @@ section {
 }
 
 .service-img {
-    filter: invert(100%);
+    filter: invert(90%);
     height: 4rem;
 }
 
