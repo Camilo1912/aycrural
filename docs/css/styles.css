@@ -103,7 +103,8 @@ nav {
 }
 
 .nav-detail {
-    height: 5rem;
+    height: auto;
+    margin: 10px 0;
     width: 50%;
 }
 
@@ -511,7 +512,7 @@ section {
 } */
 
 .info-project-container {
-    height: 30vh;
+    min-height: 200px;
 
     /* border: 2px solid blue; */
     width: 50%;
@@ -567,6 +568,51 @@ section {
 .italic-2 {
     font-style: italic;
 }
+
+
+
+/* navbar movil */
+.offcanvas {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: var(--clr-font--medium);
+}
+
+.navbar {
+    visibility: hidden;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    filter: invert(100%);
+}
+
+.nav-item {
+    margin: 10px;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.active {
+    font-weight: 900;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -768,6 +814,16 @@ section {
 
     .main-extra-service {
         height: 80vh;
+    }
+
+    /* navbar movil */
+
+    .navbar {
+        visibility: visible;
+    }
+
+    .nav-desk {
+        visibility: hidden;
     }
 
 }
