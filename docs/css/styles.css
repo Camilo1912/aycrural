@@ -620,6 +620,13 @@ section {
     background-color: rgba(255, 255, 255, 0);
 }
 
+.relleno {
+    width: 50px;
+}
+
+.relleno2 {
+    visibility: hidden;
+}
 
 
 
@@ -746,6 +753,10 @@ section {
         margin-bottom: 40px;
     }
 
+    .presentation {
+        margin-top: 40px;
+    }
+
     :root {
         font-size: 15px;
     }
@@ -846,6 +857,9 @@ section {
         padding-bottom: 50px;
     }
 
+    .relleno2 {
+        visibility: visible;
+    }
 }
 
 
