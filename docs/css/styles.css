@@ -581,6 +581,10 @@ section {
 
 .navbar {
     visibility: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    /* height: 10vh; */
 }
 
 .navbar-toggler {
@@ -604,6 +608,23 @@ section {
     font-weight: 900;
 }
 
+.container-fluid {
+    height: 100%;
+    width: 100%;
+    background-color: var(--clr-background2);
+}
+
+.container-fluid-inicio {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.logo-header{
+    height: 40%;
+    margin-left: 20px;
+    filter: invert(100%);
+}
 
 
 
@@ -825,6 +846,7 @@ section {
     .nav-desk {
         visibility: hidden;
     }
+
 
 }
 
