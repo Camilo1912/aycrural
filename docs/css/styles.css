@@ -437,14 +437,9 @@ section {
     width: 100%;
 }
 
-.project h3,p {
+.project p {
     color: var(--clr-font--medium);
     margin: 5px 0px;
-}
-
-.project h3 {
-    margin-top: 20px;
-    font-weight: bolder;
 }
 
 .project p {
@@ -652,6 +647,30 @@ section {
 
 .relleno {
     width: 50px;
+}
+
+.incon-service-used {
+    float: left;
+    height: 25px;
+    width: 25px;
+    filter: invert(100%);
+}
+
+.subtitle-project {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.subtitle-icon-box {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15%;
 }
 
 
