@@ -590,6 +590,15 @@ section {
 
 .offcanvas-title {
     font-size: 2rem;
+    margin-left: 15px;
+    font-weight: 900;
+    color: white;
+    filter: drop-shadow( 3px 3px 3px rgba(0,0,0,.2));
+}
+
+
+.offcanvas-header, .btn-close {
+    margin-right: 15px;
 }
 
 .navbar {
@@ -610,6 +619,8 @@ section {
 
 .nav-item {
     margin: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 .nav-link {
@@ -619,9 +630,12 @@ section {
 
 .active {
     font-weight: 900;
+    width: 100%;
     background-color: var(--clr-font--light);
+    color: var(--clr-font--dark);
     /* border: 1px solid var(--clr-font--almostblack); */
 }
+
 
 .container-fluid {
     height: 100%;
