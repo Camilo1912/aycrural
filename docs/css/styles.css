@@ -570,6 +570,15 @@ section {
 }
 
 
+.btn-atras {
+    text-decoration: underline;
+    color: var(--clr-font--medium);
+    text-align: right;
+}
+
+
+
+
 
 /* navbar movil */
 .offcanvas {
@@ -610,11 +619,14 @@ section {
 
 .active {
     font-weight: 900;
+    background-color: var(--clr-font--light);
+    /* border: 1px solid var(--clr-font--almostblack); */
 }
 
 .container-fluid {
     height: 100%;
     width: 100%;
+    margin: 0 30px;
     background-color: var(--clr-background2);
 }
 
@@ -628,9 +640,6 @@ section {
     width: 50px;
 }
 
-.relleno2 {
-    visibility: hidden;
-}
 
 
 
@@ -729,7 +738,7 @@ section {
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
     .service {
         flex-direction: column;
     }
@@ -797,7 +806,16 @@ section {
 
     .gallery-title {
         width: 85%;
+        font-size: 1.2rem;
         padding-left: 0;
+    }
+
+    .gallery-box {
+        min-height: 330px;
+    }
+
+    .project h3 {
+        font-size: 1rem;
     }
 
     .member-description {
