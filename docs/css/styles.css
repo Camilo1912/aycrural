@@ -303,7 +303,7 @@ section {
     padding: 1.5rem 0;
     width: 200px;
     border-radius: 5px;
-    /* transition: 200ms ease-in-out; */
+    transition: 200ms ease-in-out;
     /* border: 2px solid blue; */
 }
 
@@ -315,14 +315,11 @@ section {
     width: 100%;
 }
 
-/* .service:hover {
+.service:hover {
     transform: scale(1.1);
     box-shadow: 10px 10px 15px rgba(0,0,0,.1);
-} */
-
-.service:hover {
-    border: 1px solid var(--clr-font--light);
 }
+
 
 .service-info {
     width: 100%;
@@ -556,6 +553,7 @@ section {
     max-width: 90ch;
     font-size: 1rem;
     text-align: center;
+    color: var(--clr-font--medium);
 }
 
 .italic {
